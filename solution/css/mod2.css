@@ -1,22 +1,97 @@
-.test {
-	background-color: blue;
+* {
+	box-sizing: border-box;
+	font-family: sans;
 }
 
-@media (min-width: 800px) {
-	.d-test {
-		background-color: blue;
+.content {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	margin-top: 2.5em;
+	margin-bottom: 0.5em;
+	
+}
+
+.colors_1 {
+	color: black;
+	background-color: lime;
+}
+
+.colors_2 {
+	color: white;
+	background-color: maroon;
+}
+
+.colors_3 {
+	color: black;
+	background-color: green;
+}
+
+.h_topright {
+	position: absolute;
+	border: 1px solid black;
+	top: -1px;
+	right: -1px;
+	width: 33.33%;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.c_all {
+	border: 1px solid black;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.page_head {
+	text-align: center;
+	font-size: 175%;
+}
+
+@media (min-width: 992px) {
+	.d_small_sec {
+		float: left;
+		width: 31%;
+		background-color: lightgray;
+		
+	}
+	
+	.d_big_sec {
+		float: left;
+		width: 31%;
+		background-color: lightgray;
+	}
+	
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.t_small_sec {
+		float: left;
+		width: 50%;
+		background-color: lightgray;
+	}
+	
+	.t_big_sec {
+		float: left;
+		width: 100%;
+		background-color: lightgray;
 	}
 }
 
-
-@media (min-width: 400px) and (max-width: 799px) {
-	.t-test {
-		background-color: green;
+@media (max-width: 767px) {
+	.m_small_sec {
+		float: left;
+		width: 100%;
+		background-color: lightgray;
 	}
-}
-
-@media (max-width: 399px) {
-	.m-test {
-		background-color: red;
+	
+	.m_big_sec {
+		float: left;
+		width: 100%;
+		background-color: lightgray;
 	}
 }
