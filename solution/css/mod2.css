@@ -1,0 +1,22 @@
+.test {
+	background-color: blue;
+}
+
+@media (min-width: 800px) {
+	.d-test {
+		background-color: blue;
+	}
+}
+
+
+@media (min-width: 400px) and (max-width: 799px) {
+	.t-test {
+		background-color: green;
+	}
+}
+
+@media (max-width: 399px) {
+	.m-test {
+		background-color: red;
+	}
+}
